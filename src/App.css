@@ -1,0 +1,73 @@
+
+/* Set the basic page appearance. */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f3f6fb;
+  color: #222;
+}
+
+/* Center the application on the page. */
+.app {
+  max-width: 650px;
+  margin: 40px auto;
+  padding: 25px;
+}
+
+/* Style the main heading. */
+h1 {
+  color: #1d4ed8;
+}
+
+/* Arrange the form fields vertically. */
+.user-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 3px 12px #00000010;
+}
+
+/* Style the input fields. */
+.user-form input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+/* Style the button. */
+.user-form button {
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background: #2563eb;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.user-form button:hover {
+  background: #1d4ed8;
+}
+
+/* Display the status message. */
+.message {
+  color: #166534;
+  font-weight: bold;
+}
+
+/* Style each user card. */
+.user-card {
+  margin-top: 12px;
+  padding: 15px;
+  background: white;
+  border-radius: 8px;
+  border-left: 4px solid #2563eb;
+}
+
+.user-card h3 {
+  margin-top: 0;
+}
